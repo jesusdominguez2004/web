@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Encabezado: ajustes, conexiones y más -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título y hoja CSS -->
+    <title>Pixel Image Animation | Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- Contenido página -->
+<body>
+    <div class="box">
+        <div id="pixel">
+            
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        let width = 30;
+        let height = 30;
+
+        function pixel() {
+            for (var i = 0; i < height; i++) {
+                for (var j = 0; j < width; j++) {
+                    let span = document.createElement("span");
+                    let random = Math.random() * 2;
+                    let randomFixed = random.toFixed(2)
+
+                    document.getElementById("pixel").appendChild(span);
+                    span.style.left = j * 10 + "px";
+                    span.style.top = i * 10 + "px";
+                    span.style.backgroundPosition = (-j * 10) + "px " + (-i * 10) + "px, center";
+                    span.style.animationDelay = randomFixed + "s";
+                }
+            }
+        }
+        pixel();
+    </script>
+</body>
+</html>
