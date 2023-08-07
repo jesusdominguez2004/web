@@ -1,0 +1,44 @@
+/* Hoja de estilos CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    background: #000;
+    height: 100vh;
+    overflow: hidden;
+}
+
+section p {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: 0.6em;
+    background: url(imgs/img1.jpg);
+    background-clip: text;
+    background-size: contain;
+    -webkit-background-clip: text;
+    text-align: justify;
+    color: transparent;
+    filter: contrast(1);
+}
+
+#bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: url(imgs/img1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    /* filter: contrast(2); */
+}
