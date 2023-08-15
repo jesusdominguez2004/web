@@ -155,3 +155,7 @@ body {
 .container .tab input:checked ~ .content ul {
     color: #fff;
 }
+
+.container .tab input:checked ~ .content ul li a {
+    color: #fff;
+}
