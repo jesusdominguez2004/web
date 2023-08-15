@@ -143,3 +143,15 @@ body {
 .container .tab input:checked ~ .content p {
     color: #fff;
 }
+
+.container .tab .content ul {
+    position: relative;
+    padding: 10px 0;
+    padding-left: 30px;
+    color: #333;
+    z-index: 10;
+}
+
+.container .tab input:checked ~ .content ul {
+    color: #fff;
+}
