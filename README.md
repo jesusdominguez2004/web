@@ -16,7 +16,7 @@
 
 ```
 📦web
-┣ 📂glassmorphism-card
+ ┣ 📂glassmorphism-card
  ┃ ┣ 📜index.html
  ┃ ┣ 📜style.css
  ┃ ┗ 📜vanilla-tilt.js
