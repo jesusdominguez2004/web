@@ -1,0 +1,140 @@
+<!-- 1. Always Declare Document Type -->
+<!DOCTYPE html>
+<!-- 16. Add the lang Attribute -->
+<html lang="en-us">
+    <!-- 13. We recommend using the <head> tag -->
+    <head>
+        <!-- 17. Meta Data -->
+        <!-- 18. Setting The Viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- 12. Never Skip the <title> Element -->
+        <title>HTML Style Guide and Coding Conventions</title>
+        <!-- 15. keep the closing slash (/) if you expect XML/XHTML -->
+        <meta charset="utf-8"/>
+        <!-- 20. Using Style Sheets -->
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            /* 21. Short CSS rules can be written compressed: */
+            p.intro {font-family:Verdana;font-size:16em;}
+
+            /* 22. Long CSS rules should be written over multiple lines: */
+            body {
+                background-color: lightgrey;
+                font-family: "Arial Black", Helvetica, sans-serif;
+                font-size: 16em;
+                color: black;
+            }
+        </style>
+    </head>
+    <!-- 14. We recommend using the <body> tag -->
+    <body>
+        <!-- 2. Use Lowercase Element Names -->
+        <p class="intro">This is a paragraph.</p>
+
+        <!-- 3. Close All HTML Elements -->
+        <section>
+            <p>This is a paragraph.</p>
+            <p>This is a paragraph.</p>
+        </section>
+
+        <!-- 4. Use Lowercase Attribute Names -->
+        <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+
+        <!-- 5. Always Quote Attribute Values -->
+        <table class="striped"></table>
+
+        <!-- 6. Always Specify alt, width, and height for Images -->
+        <img src="html5.gif" alt="HTML5" style="width:128px;height:128px">
+
+        <!-- 7. Spaces and Equal Signs -->
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- 8. Avoid Long Code Lines -->
+        <p>This is a paragraph.</p>
+
+        <!-- 9. Blank Lines and Indentation -->
+        <h1>Famous Cities</h1>
+
+        <h2>Tokyo</h2>
+        <p>Tokyo is the capital of Japan, the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
+        
+        <h2>London</h2>
+        <p>London is the capital city of England. It is the most populous city in the United Kingdom.</p>
+        
+        <h2>Paris</h2>
+        <p>Paris is the capital of France. The Paris area is one of the largest population centers in Europe.</p>
+
+        <!-- 10. Good Table Example: -->
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>Description of A</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>Description of B</td>
+            </tr>
+        </table>
+
+        <!-- 11. Good List Example: -->
+        <ul>
+            <li>London</li>
+            <li>Paris</li>
+            <li>Tokyo</li>
+        </ul>
+
+        <!-- 19. HTML Comments -->
+        <!-- This is a comment -->
+        <!--
+            This is a long comment example. This is a long comment example.
+            This is a long comment example. This is a long comment example.
+        -->
+
+
+        <!-- 23. Loading JavaScript in HTML -->
+        <script src="myscript.js"></script>
+
+        <!-- 24. Accessing HTML Elements with JavaScript -->
+        <p id="Demo">This a paragraph 1.</p>
+        <p id="demo">This a paragraph 2.</p>
+
+        <script>
+            // Only paragraph 2 will be overwritten
+            document.getElementById("demo").innerHTML = "HELLO.";
+        </script>
+
+        <!-- 25. Always use lowercase file names! -->
+        <img src="html5.gif" alt="HTML5 Logo" style="width:128px;height:128px">
+
+        <!-- 26. File Extensions -->
+        <p>HTML files should have a .html extension (.htm is allowed).</p>
+        <p>CSS files should have a .css extension.</p>
+        <p>JavaScript files should have a .js extension.</p>
+
+        <!-- 27. Differences Between .htm and .html -->
+        <p>There is no difference between the .htm and .html file extensions!</p>
+        <p>Both will be treated as HTML by any web browser and web server.</p>
+
+        <!-- 28. Default Filenames -->
+        <p>
+            When a URL does not specify a filename at the end (like "https://www.w3schools.com/"), 
+            the server just adds a default filename, such as "index.html", "index.htm", "default.html", or "default.htm".
+        </p>
+
+        <p>
+            If your server is configured only with "index.html" as the default filename, 
+            your file must be named "index.html", and not "default.html".
+        </p>
+
+        <p>
+            However, servers can be configured with more than one default filename; 
+            usually you can set up as many default filenames as you want.
+        </p>
+
+
+    </body>
+</html>
