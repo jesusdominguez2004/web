@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        
+        <h1>The input formmethod Attribute</h1>
+
+        <p>The formmethod attribute defines the HTTP method for sending form-data to the action URL.</p>
+
+        <form action="/action_page.php" method="get" target="_blank">
+            <label for="fname">First name:</label>
+            <input type="text" name="fname" id="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" name="lname" id="lname"><br><br>
+            <input type="submit" value="Submit using GET">
+            <input type="submit" formmethod="post" value="Submit using POST">
+        </form>
+
+    </body>
+</html>
