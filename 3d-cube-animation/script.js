@@ -37,4 +37,13 @@ document.addEventListener('DOMContentLoaded', function () {
         let y = e.clientY / window.innerHeight - 0.5;
         cube.style.transform = `rotateX(${y * 360}deg) rotateY(${x * 360}deg)`;
     });
+
+    document.addEventListener('touchmove', (e) => {
+        if (e.touches.length === 1) {
+            let touch = e.touches[0];
+            let x = touch.clientX / window.innerWidth - 0.5;
+            let y = touch.clientY / window.innerHeight - 0.5;
+            cube.style.transform = `rotateX(${y * 360}deg) rotateY(${x * 360}deg)`;
+        }
+    });
 });
