@@ -13,6 +13,7 @@ body {
     min-height: 100vh;
     background: #111;
     perspective: 1000px;
+    overflow: hidden;
 }
 
 .scene {
