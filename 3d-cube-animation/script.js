@@ -20,6 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
             let removeTime = Math.floor(Math.random() + 1000) + 500;
             setTimeout(() => {
                 spans[randomIndex].classList.remove('active');
+                spans[randomIndex].style.background = '';
+                spans[randomIndex].style.filter = '';
             }, removeTime);
         });
     }
@@ -31,6 +33,13 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     randomInterval();
+
+    function getRandomColor() {
+        const r = Math.floor(Math.random() * 256);
+        const g = Math.floor(Math.random() * 256);
+        const b = Math.floor(Math.random() * 256);
+        return `rgb(${r}, ${g}, ${b})`;
+    }
 
     document.addEventListener('mousemove', (e) => {
         let x = e.clientX / window.innerWidth - 0.5;
@@ -45,5 +54,13 @@ document.addEventListener('DOMContentLoaded', function () {
             let y = touch.clientY / window.innerHeight - 0.5;
             cube.style.transform = `rotateX(${y * -360}deg) rotateY(${x * 360}deg)`;
         }
+    });
+
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.grid span.active').forEach(span => {
+            let randomColor = getRandomColor();
+            span.style.background = `${randomColor}`;
+            span.style.filter = `drop-shadow(0 0 20px ${randomColor})`;
+        });
     });
 });
