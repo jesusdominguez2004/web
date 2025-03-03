@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS | Web</title>
+    <!-- CSS -->
+    <style>
+        input[type=text] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 1px solid #555;
+            outline: none;
+        }
+
+        input[type=text]:focus {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- HTML Elements -->
+    <h2>Input fields with color on :focus</h2>
+
+    <p>Here, the input field gets a color when it gets focus (clicked on):</p>
+    
+    <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" value="John">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" value="Doe">
+    </form>
+
+</body>
+</html>

@@ -29,6 +29,10 @@ This is my personal CSS learning repository, I always use W3School to learn lang
 - demo325.html (033-navigation-bar/...)
 - demo326.html (033-navigation-bar/...)
 - demo332.html (035-image-gallery/...)
+- demo352.html (038-forms/...)
+- demo352.html (038-forms/...)
+- demo355.html (038-forms/...)
+- demo358.html (038-forms/...)
 - ...
 
 ## Tree (2/02/2025)

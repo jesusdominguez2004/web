@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS | Web</title>
+    <!-- CSS -->
+    <style>
+        input[type=text] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 3px solid #ccc;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+            outline: none;
+        }
+
+        input[type=text]:focus {
+            border: 3px solid #555;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- HTML Elements -->
+    <h2>Input fields with black border on :focus</h2>
+
+    <p>Here, the input field gets a black border color when it gets focus (clicked on). We have also added the CSS transition property to animate the border color (takes 0.5 seconds to change the color on focus):</p>
+    
+    <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" value="John">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" value="Doe">
+    </form>
+
+</body>
+</html>
