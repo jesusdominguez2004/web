@@ -33,6 +33,10 @@ This is my personal CSS learning repository, I always use W3School to learn lang
 - demo352.html (038-forms/...)
 - demo355.html (038-forms/...)
 - demo358.html (038-forms/...)
+- demo364.html (040-website-layout/...)
+- demo365.html (040-website-layout/...)
+- demo366.html (040-website-layout/...)
+- demo367.html (040-website-layout/...)
 - ...
 
 ## Tree (2/02/2025)
