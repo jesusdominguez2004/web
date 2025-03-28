@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS | Web</title>
+    <!-- CSS -->
+    <style>
+        .div1 {
+            border: 1px solid black;
+            height: 120px;
+            width: 150px;
+            background: url(img_flwr.gif);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .div2 {
+            border: 1px solid black;
+            height: 120px;
+            width: 150px;
+            background: url(img_flwr.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .div3 {
+            border: 1px solid black;
+            height: 120px;
+            width: 150px;
+            background: url(img_flwr.gif);
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- HTML Elements -->    
+    <h1>The background-size Property</h1>
+
+    <h2>background-size: contain:</h2>
+    <div class="div1">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    
+    <h2>background-size: cover:</h2>
+    <div class="div2">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    
+    <h2>No background-size defined:</h2>
+    <div class="div3">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    
+    <p>Original image:</p>
+    <img src="img_flwr.gif" alt="Flowers" width="224" height="162">
+
+</body>
+</html>

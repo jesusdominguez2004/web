@@ -39,6 +39,8 @@ This is my personal CSS learning repository, I always use W3School to learn lang
 - demo367.html (040-website-layout/...)
 - demo399.html (045-rounded-corners/...)
 - demo400.html (045-rounded-corners/...)
+- demo408.html (047-advanced-backgrounds/...)
+- demo412.html (047-advanced-backgrounds/...)
 - ...
 
 ## Tree (2/02/2025)
