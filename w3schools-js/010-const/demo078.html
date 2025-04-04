@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Let | W3schools | Web</title>
+</head>
+<body>
+    
+    <!-- HTML Elements -->
+    <h2>JavaScript Hoisting</h2>
+
+    <p>With <b>const</b>, you cannot use a variable before it is declared:</p>
+
+    <p id="demo"></p>
+
+    <!-- JavaScript -->
+    <script>
+        try {
+            alert(carName);
+            const carName = "Volvo";
+        }
+        catch (err) {
+            document.getElementById("demo").innerHTML = err;
+        }
+    </script>
+
+</body>
+</html>
