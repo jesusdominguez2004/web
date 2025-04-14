@@ -8,7 +8,7 @@ This is my personal JavaScript learning repository, I always use W3School to lea
 ## My favorite demo scripts:
 
 - demo072.html (010-const/...)
-- ...
+- demo124.html (014-data-types/...)
 - ...
 
 {"🌿🖥️"};
