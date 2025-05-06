@@ -9,6 +9,8 @@ This is my personal JavaScript learning repository, I always use W3School to lea
 
 - demo072.html (010-const/...)
 - demo124.html (014-data-types/...)
+- demo189.html (020-object-constructors/...)
+- demo190.html (020-object-constructors/...)
 - ...
 
 {"🌿🖥️"};

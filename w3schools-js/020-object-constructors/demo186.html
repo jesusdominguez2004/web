@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Object Constructors | W3schools | Web</title>
+</head>
+<body>
+    
+    <!-- HTML Elements -->
+    <h1>JavaScript Object Constructors</h1>
+
+    <p id="demo"></p>
+    
+    <!-- JavaScript -->
+    <script>
+        // Constructor function for Person objects
+        function Person(first, last, age, eye) {
+            this.firstName = first;
+            this.lastName = last;
+            this.age = age;
+            this.eyeColor = eye;
+            this.fullName = function() {
+                return this.firstName + " " + this.lastName
+            };
+        };
+
+        // Create a Person object
+        const myFather = new Person("John", "Doe", 50, "blue");
+
+        // Display full name
+        document.getElementById("demo").innerHTML = 
+        "My father is " + myFather.fullName();
+    </script>
+
+</body>
+</html>
