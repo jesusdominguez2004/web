@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Object Methods | W3schools | Web</title>
+</head>
+<body>
+    
+    <!-- HTML Elements -->
+    <h1>JavaScript Objects</h1>
+    <h2>Adding a Method</h2>
+
+    <p id="demo"></p>
+    
+    <!-- JavaScript -->
+    <script>
+        // Create an Object
+        const person = {
+            firstName: "John",
+            lastName: "Doe",
+            id: 5566,
+        };
+
+        // Add a Method
+        person.name = function() {
+            return (this.firstName + " " + this.lastName).toUpperCase();
+        };
+
+        // Display Object Data
+        document.getElementById("demo").innerHTML = 
+        "My father is " + person.name();
+    </script>
+
+</body>
+</html>
