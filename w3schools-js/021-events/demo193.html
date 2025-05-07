@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events | W3schools | Web</title>
+</head>
+<body>
+    
+    <!-- HTML Elements -->
+    <h1>JavaScript HTML Events</h1>
+    <h2>The onclick Attribute</h2>
+
+    <p>Click the button to display the date.</p>
+    <button onclick="displayDate()">The time is?</button>
+
+    <!-- JavaScript -->
+    <script>
+        function displayDate() {
+            document.getElementById("demo").innerHTML = Date();
+        }
+    </script>
+
+    <p id="demo"></p>
+
+</body>
+</html>
