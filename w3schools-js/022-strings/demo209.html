@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Strings | W3schools | Web</title>
+</head>
+<body>
+    <!-- HTML Elements -->
+    <h2>Never Create Strings as Objects</h2>
+    <p>JavaScript objects cannot be compared.</p>
+
+    <p id="demo"></p>
+
+    <!-- JavaScript -->
+    <script>
+        let x = new String("John"); // x is an object
+        let y = new String("John"); // y is an object
+        document.getElementById("demo").innerHTML = (x===y);
+    </script>
+</body>
+</html>
