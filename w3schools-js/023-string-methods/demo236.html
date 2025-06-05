@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Strings Methods | W3schools | Web</title>
+</head>
+<body>
+    <!-- HTML Elements -->
+    <h1>JavaScript Strings</h1>
+    <h2>The padStart() Method</h2>
+
+    <p>The padStart() method pads a string from the start.</p>
+    <p>It pads the string with another string (multiple times) until it reaches a given length.</p>
+
+    <p id="demo"></p>
+
+    <!-- JavaScript -->
+    <script>
+        let numb = 5;
+        let text = numb.toString();
+        document.getElementById("demo").innerHTML = text.padEnd(4, "x");
+    </script>
+</body>
+</html>

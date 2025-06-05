@@ -11,6 +11,7 @@ This is my personal JavaScript learning repository, I always use W3School to lea
 - demo124.html (014-data-types/...)
 - demo189.html (020-object-constructors/...)
 - demo190.html (020-object-constructors/...)
+- demo247.html (023-string-methods/...)
 - ...
 
 {"🌿🖥️"};
