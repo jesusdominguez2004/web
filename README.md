@@ -1,3 +1,3 @@
 # Web
 
-> Hello World! {'🌿🖥️'};
+> Hello World! '\u{2665}'
